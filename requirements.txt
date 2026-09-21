@@ -1,0 +1,24 @@
+# Deep Past Initiative — Machine Translation (Kaggle)
+# Install: pip install -r requirements.txt (prefer a venv)
+
+# Kaggle API (download_data.py)
+kaggle>=1.5.16
+
+# Data (explore_data.py, run_baseline.py)
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Evaluation — BLEU and chrF++ (evaluate.py); competition score = √(BLEU × chrF++)
+sacrebleu>=2.3.0
+
+# Optional: NLLB / translation model (for run_baseline.py --model and save_nllb_for_kaggle.py)
+# pip install torch transformers accelerate
+# torch>=2.0.0
+# transformers>=4.30.0
+# accelerate>=0.20.0
+# datasets>=2.14.0
+# scikit-learn>=1.3.0
+
+# Optional: Jupyter for experiments
+# jupyter>=1.0.0
+# ipykernel>=6.0.0
