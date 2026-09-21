@@ -23,7 +23,8 @@ __pycache__/
 
 # Model checkpoints and outputs (large)
 checkpoints/
-outputs/
+outputs/*
+!outputs/.gitkeep
 *.pt
 *.pth
 *.bin
