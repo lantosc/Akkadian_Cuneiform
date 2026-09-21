@@ -1,0 +1,35 @@
+# Kaggle data (large; re-download with download_data.py)
+data/raw/
+data/processed/
+data/submissions/
+data/models/
+*.zip
+
+# Submissions (optional: keep private)
+# data/submissions/
+
+# Env and IDE
+venv/
+.venv/
+.env
+.idea/
+.vscode/
+*.pyc
+__pycache__/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/*.ipynb
+
+# Model checkpoints and outputs (large)
+checkpoints/
+outputs/
+*.pt
+*.pth
+*.bin
+*.ckpt
+
+# OS
+.DS_Store
+Thumbs.db
+
